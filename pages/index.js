@@ -31,7 +31,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, Im Hiroki. Im a software engineer and a product manager.
+          Hello, Im Hiroki. Im a software engineer and a product manager. Scrum Master.
         </p>
         <p>
           Im currently a software engineer at <a href="https://www.apple.com">Apple</a>.
@@ -47,6 +47,8 @@ export default function Home({ allPostsData }) {
                   src={thumbnail} 
                   alt=""
                   className={homeStyles.thumbnailImage}
+                  height={100}
+                  width={100}
               />
             </Link>
             <Link href={`/posts/${id}`}>
